@@ -1,0 +1,31 @@
+<!doctype html>
+
+<html>
+	<head>
+<!--
+	    exercise 02_04_01
+	    Author: Nathan Howard
+	    Date: 09.25.18
+	   Filename: Scholarship.html
+-->
+		<title>Scholarship</title>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="initial-scale=1.0">
+		<script src="modernizr.custom.65897.js"></script>
+	</head>
+
+	<body>
+        <h2 style= "text-align: center">Scholarship Form</h2>
+<!--        scholarship processing form-->
+        <form action="ProcessScholarship.php" method="post" name="scholarship">
+<!--               first and last name inputs-->
+            <p>First Name: <input type="text" name="fName"></p>
+            <p>Last Name: <input type="text" name="lName"></p>
+            <p>
+<!--               reset and submit buttons-->
+                <input type="reset" value="Clear Form">&nbsp;&nbsp;
+                <input type="submit" value="Send Form">
+            </p>
+        </form>
+	</body>
+</html>
